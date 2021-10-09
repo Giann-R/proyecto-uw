@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfxFAQ2o4mS4tIasKmcuvCN6l8mCWcpiYihCAQyIrflJ0k85Yzi3gA36g46NdS0y2BAPs&usqp=CAU);
+}
+
+.container{
+    width: 100;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+p{ 
+    color:rgb(245, 11, 11);
+    font-size: xx-large;
+    padding:14%;
+    
+}
+button{
+    box-shadow:rgba(400, 400, 400, #ffa);
+    border-radius:20%;
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+#noBtn{
+    position:absolute;
+}
+
+.footer__bottom{
+    font-size: 0.87em; 
+    margin-top: 1rem;
+    border-top: 1px solid
+    rgba(255, 255, 255, 0.3);;
+    padding-top: 1rem;
+    text-align: center;
+    color:rgb(245, 11, 11);
+
+}
